@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GraphView">
+
+        <attr name="shouldDrawHorizontalLabels" format="boolean" />
+        <attr name="shouldDrawVerticalLabels" format="boolean" />
+        <attr name="shouldDrawTitleLabel" format="boolean" />
+        <attr name="shouldDrawGradient" format="boolean" />
+
+        <attr name="titleTextSize" format="dimension" />
+
+        <attr name="titleColor" format="color" />
+        <attr name="horizontalLabelsColor" format="color" />
+        <attr name="verticalLabelsColor" format="color" />
+
+        <attr name="graphLineColor" format="color" />
+
+        <attr name="graphType" format="enum">
+            <enum name="line" value="0" />
+            <enum name="pie" value="1" />
+        </attr>
+
+        <!--<attr name="borderWidth" format="dimension" />-->
+        <!---->
+        <!--<attr name="state" format="enum">-->
+            <!--<enum name="happy" value="0" />-->
+            <!--<enum name="sad" value="1" />-->
+        <!--</attr>-->
+
+    </declare-styleable>
+</resources>
